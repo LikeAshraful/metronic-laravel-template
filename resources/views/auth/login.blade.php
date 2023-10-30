@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <base href=""/>
-    <title>Login | Metro Tonight</title>
+    <title>Login | Laravel Metronic</title>
     <meta charset="utf-8"/>
     <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.ico')}}"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"/>
@@ -43,7 +43,7 @@
                         @csrf
                         <div class="text-center mb-11">
                             <h1 class="text-dark fw-bolder mb-3">Sign In</h1>
-                            <div class="text-gray-500 fw-semibold fs-6">Welcome to Metro Tonight</div>
+                            <div class="text-gray-500 fw-semibold fs-6">Welcome to Laravel Metronic</div>
                         </div>
                         <div class="fv-row mb-5">
                             <input type="text" placeholder="Email" name="email" class="form-control bg-transparent @error('email') is-invalid @enderror" value="{{ old('email') }}" required autocomplete="email" autofocus/>
